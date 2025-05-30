@@ -59,7 +59,6 @@ public class Computer : IContainer, IFileContainer, IEnumerable, IEnumerator
         return this;
     }
 
-    // Реалізація IEnumerator
     public bool MoveNext()
     {
         _position++;
